@@ -5,7 +5,7 @@ import os
 import glob
 import matplotlib.pyplot as plt
 import pickle
-
+# Curved lane detection
 def pipeline(img, s_thresh=(100, 255), sx_thresh=(15, 255)):
     #img = undistort(img)
     img = np.copy(img)
